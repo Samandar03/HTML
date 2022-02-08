@@ -1,0 +1,115 @@
+body{
+  background-color: #0a93f4;
+}
+.bar{
+  color:green;
+  font-size: 50px;
+  font-weight: lighter;
+  font-family:arial black;
+  margin-left: 250px;
+  border: 5px solid red;
+  background-color: yellow;
+  width:700px;
+  padding: 5px 10px 5px 30px;
+  transition-duration:0.8s;
+  opacity: 0.6;
+  transform: scale(0.8);
+}
+
+.bar:hover{
+  color:red;
+  background-color: blue;
+  cursor: pointer;
+  border: 5px double pink;
+  transition-duration: 1;
+  opacity: 1;
+  transform: scale(1.25);
+
+}
+#baar{
+  color:aqua;
+  font-size:50px;
+  font-weight:lighter;
+  font-family:arial black;
+  margin-left:250px;
+  border: 5px solid silver;
+  background-color: lime;
+  width:700px;
+  padding: 5px 10px 5px 30px;
+  border-radius:50px;
+  transition-duration:1s;
+  opacity:0.6;
+  transform:scale(0.8);
+}
+#baar:hover{
+  color:brown;
+  background-color:orange;
+  cursor:pointer;
+  border:5px double darkorange;
+  transition-duration:1s;
+  opacity:1;
+  transform:scale(1.25);
+}
+a{
+  text-decoration: none;
+
+
+}
+
+nav{
+  font-family: algerian;
+}
+li{
+  color: lightgreen;
+  background: red;
+  display: block;
+  float: left;
+  padding:1rem;
+  position:relative;
+  transition-duration:0.5s;
+  cursor: pointer;
+
+
+}
+ul{
+  color:red;
+  list-style-type: none;
+  margin: 0;
+  padding-left:0;
+
+}
+
+li a{
+  color:orange;
+  }
+li:hover{
+  background: lime;
+}
+li a:hover{
+  color:orange;
+}
+ul li ul{
+  background: lime;
+  visibility:hidden;
+  opacity: 0;
+  min-width:5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left:0;
+  display: none;
+  width: 100px;
+
+}
+
+ul li:hover > ul,
+ul li ul:hover{
+  visibility: visible;
+  opacity: 1;
+  display: block;
+
+}
+
+ ul li ul li{
+   width:100%
+ }
